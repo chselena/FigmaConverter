@@ -1,0 +1,18 @@
+# Softlight Engineering Take-Home Assignment
+Figma Converter: 
+Convert any Figma design file into clean, positioned HTML + CSS that visually matches the original design. 
+
+This tool fetches a Figma file using a Personal Access Token, normalizes the Figma node tree, and generates:
+index.html — Fully wrapped HTML with a phone simulator container
+styles.css — Reconstructed layout, absolute positioning, gradients, colors, borders, text styles
+Accurate rendering of your Figma frame directly in your browser
+The goal is to replicate the Figma design as closely as possible using raw HTML & CSS.
+
+Installion:
+git clone your-repo-url
+cd FigmaConverter
+npm install
+export FIGMA_API_TOKEN="YOUR_FIGMA_API_TOKEN_HERE"
+npm start
+input your figma file link
+open output/index.html
